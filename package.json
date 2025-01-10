@@ -3,7 +3,10 @@
   "version": "1.0.0",
   "description": "Java Blackjack Game",
   "scripts": {
-    "build": "javac -d dist src/**/*.java",
+    "build": "mkdir -p dist && cp -r public/* dist/ && chmod +x build.sh && ./build.sh",
     "start": "java -cp dist Blackjack"
+  },
+  "dependencies": {
+    "serve": "^14.0.0"
   }
 }
