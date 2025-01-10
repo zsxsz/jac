@@ -1,0 +1,9 @@
+{
+  "name": "jac",
+  "version": "1.0.0",
+  "description": "Java Blackjack Game",
+  "scripts": {
+    "build": "javac -d dist src/**/*.java",
+    "start": "java -cp dist Blackjack"
+  }
+}
